@@ -1,0 +1,15 @@
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:85px;align-items:start}.contact-copy h2{margin:17px 0 20px}.contact-copy>p{font-size:13px;color:var(--muted);line-height:1.9}.contact-detail{display:flex;align-items:center;gap:15px;margin-top:25px}.contact-icon{width:42px;height:42px;background:#f5f0e5;color:#9a793b;display:grid;place-items:center;border-radius:5px;font-size:18px}.contact-detail div{display:grid;gap:3px}.contact-detail small{font-size:9px;letter-spacing:1.5px;color:#9a793b;font-weight:700}.contact-detail strong{font-size:12px}.contact-form{background:#f8f9fb;padding:34px;border:1px solid #edf0f4}.contact-form h3{font-size:23px}.form-intro{font-size:10px;color:#7c8797;margin:7px 0 23px}.contact-form label{display:block;font-size:11px;font-weight:700;margin:15px 0 7px}.contact-form input,.contact-form select,.contact-form textarea{width:100%;border:1px solid #dfe4eb;background:#fff;padding:12px 13px;border-radius:3px;font-size:12px;color:var(--ink);outline:none}.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:#b18d4a;box-shadow:0 0 0 3px #d6b66d25}.contact-form textarea{resize:vertical}.form-submit{border:0;margin-top:20px;cursor:pointer}.form-note{font-size:10px;color:#778398;line-height:1.6;margin:13px 0 0}.form-note.success{color:#28734c}.form-note.error{color:#b33c3c}@media(max-width:750px){.contact-grid{grid-template-columns:1fr;gap:40px}.contact-form{padding:25px}}
+
+.contact-copy>p{color:#aaa5b8}
+.contact-icon{background:rgba(157,74,228,.17);color:#d0a2ff;border:1px solid rgba(190,143,255,.2);border-radius:13px}
+.contact-detail small{color:#bd83ff}
+.contact-detail strong{color:#f4effb}
+.contact-form{background:linear-gradient(145deg,#171424,#0e0d14);border:1px solid rgba(190,143,255,.2);border-radius:20px;box-shadow:0 18px 50px rgba(0,0,0,.22)}
+.form-intro,.form-note{color:#aaa5b8}
+.contact-form label{color:#e7def2}
+.contact-form input,.contact-form select,.contact-form textarea{background:#0c0b12;border:1px solid rgba(190,143,255,.2);color:#f4f1fb;border-radius:10px}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:#bd83ff;box-shadow:0 0 0 3px rgba(189,131,255,.12)}
+.form-note.success{color:#8fe0b3}
+
+.form-honey{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
+.contact-form button:disabled{opacity:.65;cursor:wait}
